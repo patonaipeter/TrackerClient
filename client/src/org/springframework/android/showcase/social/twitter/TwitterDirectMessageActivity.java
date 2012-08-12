@@ -16,7 +16,6 @@
 package org.springframework.android.showcase.social.twitter;
 
 import org.springframework.android.showcase.AbstractAsyncActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.social.twitter.api.TwitterApi;
 
 import android.content.Context;
@@ -28,6 +27,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

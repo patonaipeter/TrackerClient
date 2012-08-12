@@ -16,7 +16,6 @@
 package org.springframework.android.showcase.rest;
 
 import org.springframework.android.showcase.AbstractAsyncActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpEntity;
@@ -34,6 +33,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

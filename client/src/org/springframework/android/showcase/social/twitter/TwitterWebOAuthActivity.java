@@ -16,7 +16,6 @@
 package org.springframework.android.showcase.social.twitter;
 
 import org.springframework.android.showcase.AbstractWebViewActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.connect.DuplicateConnectionException;
@@ -32,6 +31,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

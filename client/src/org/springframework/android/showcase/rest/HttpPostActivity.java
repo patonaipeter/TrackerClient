@@ -15,8 +15,6 @@
  */
 package org.springframework.android.showcase.rest;
 
-import org.springframework.android.showcase.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,6 +22,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

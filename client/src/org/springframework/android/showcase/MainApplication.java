@@ -12,6 +12,7 @@ import org.springframework.social.twitter.connect.TwitterConnectionFactory;
 
 import android.app.Application;
 import android.database.sqlite.SQLiteOpenHelper;
+import at.ac.tuwien.client.android.R;
 
 public class MainApplication extends Application 
 {

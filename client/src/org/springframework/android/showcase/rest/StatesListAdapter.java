@@ -17,14 +17,13 @@ package org.springframework.android.showcase.rest;
 
 import java.util.List;
 
-import org.springframework.android.showcase.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

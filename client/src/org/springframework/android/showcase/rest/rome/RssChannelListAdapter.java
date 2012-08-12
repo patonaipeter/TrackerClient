@@ -1,4 +1,5 @@
 /*
+
  * Copyright 2011 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,14 +16,13 @@
  */
 package org.springframework.android.showcase.rest.rome;
 
-import org.springframework.android.showcase.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import at.ac.tuwien.client.android.R;
 
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.rss.Channel;
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.rss.Item;

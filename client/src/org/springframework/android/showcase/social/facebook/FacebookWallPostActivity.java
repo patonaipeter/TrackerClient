@@ -1,7 +1,6 @@
 package org.springframework.android.showcase.social.facebook;
 
 import org.springframework.android.showcase.AbstractAsyncActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.social.facebook.api.FacebookApi;
 
 import android.content.Context;
@@ -13,6 +12,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import at.ac.tuwien.client.android.R;
 
 public class FacebookWallPostActivity extends AbstractAsyncActivity 
 {

@@ -16,7 +16,6 @@
 package org.springframework.android.showcase.social.twitter;
 
 import org.springframework.android.showcase.AbstractAsyncActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.twitter.api.TwitterApi;
 import org.springframework.social.twitter.connect.TwitterConnectionFactory;
@@ -27,6 +26,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

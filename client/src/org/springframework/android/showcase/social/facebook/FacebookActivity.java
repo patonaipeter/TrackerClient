@@ -16,7 +16,6 @@
 package org.springframework.android.showcase.social.facebook;
 
 import org.springframework.android.showcase.AbstractAsyncActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.facebook.api.FacebookApi;
 import org.springframework.social.facebook.connect.FacebookConnectionFactory;
@@ -27,6 +26,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

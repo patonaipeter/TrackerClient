@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+import at.ac.tuwien.client.android.R;
 
 public abstract class AbstractWebViewActivity extends Activity implements AsyncActivity 
 {

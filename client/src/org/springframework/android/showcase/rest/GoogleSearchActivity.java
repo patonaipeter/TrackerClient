@@ -16,13 +16,13 @@
 package org.springframework.android.showcase.rest;
 
 import org.springframework.android.showcase.AbstractAsyncActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.web.client.RestTemplate;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

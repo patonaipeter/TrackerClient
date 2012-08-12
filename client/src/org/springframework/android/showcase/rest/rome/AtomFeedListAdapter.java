@@ -15,14 +15,13 @@
  */
 package org.springframework.android.showcase.rest.rome;
 
-import org.springframework.android.showcase.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import at.ac.tuwien.client.android.R;
 
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.atom.Entry;
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.atom.Feed;

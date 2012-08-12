@@ -30,6 +30,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

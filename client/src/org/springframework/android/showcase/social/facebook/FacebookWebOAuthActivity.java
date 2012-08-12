@@ -1,7 +1,6 @@
 package org.springframework.android.showcase.social.facebook;
 
 import org.springframework.android.showcase.AbstractWebViewActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.connect.DuplicateConnectionException;
@@ -21,6 +20,7 @@ import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
+import at.ac.tuwien.client.android.R;
 
 public class FacebookWebOAuthActivity extends AbstractWebViewActivity 
 {

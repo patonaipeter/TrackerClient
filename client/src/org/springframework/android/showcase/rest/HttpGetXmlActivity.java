@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.android.showcase.AbstractAsyncListActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -30,6 +29,7 @@ import org.springframework.web.client.RestTemplate;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import at.ac.tuwien.client.android.R;
 
 /**
  * @author Roy Clarkson

@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.android.showcase.AbstractAsyncListActivity;
-import org.springframework.android.showcase.R;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.feed.RssChannelHttpMessageConverter;
@@ -32,6 +31,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
+import at.ac.tuwien.client.android.R;
 
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.rss.Channel;
 import com.google.code.rome.android.repackaged.com.sun.syndication.feed.rss.Item;
