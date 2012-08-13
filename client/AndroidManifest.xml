@@ -32,6 +32,8 @@
 		<activity android:name="at.ac.tuwien.client.android.rest.HttpPostMultiValueMapActivity" />
 		<activity android:name="at.ac.tuwien.client.android.rest.HttpPostFormDataActivity" />
 		
+		<activity android:name="at.ac.tuwien.client.android.rest.RegisterActivity" />
+		
        <!-- 	<activity android:name="org.springframework.android.showcase.rest.rome.RssActivity" />
         <activity android:name="org.springframework.android.showcase.rest.rome.RssChannelActivity" />
         <activity android:name="org.springframework.android.showcase.rest.rome.RssSyndFeedActivity" />

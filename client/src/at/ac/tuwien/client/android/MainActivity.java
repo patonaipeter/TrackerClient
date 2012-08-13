@@ -29,6 +29,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import at.ac.tuwien.client.android.rest.HttpPostActivity;
+import at.ac.tuwien.client.android.rest.RegisterActivity;
 
 
 public class MainActivity extends ListActivity
@@ -65,9 +66,12 @@ public class MainActivity extends ListActivity
 //				startActivity(intent);
 //				break;
 	      	case 1:
-			    intent.setClass(this, HttpGetActivity.class);
-			    startActivity(intent);
-	      		break;
+	      		intent.setClass(this, RegisterActivity.class);
+				startActivity(intent);
+		      	break;
+//			    intent.setClass(this, HttpGetActivity.class);
+//			    startActivity(intent);
+//	      		break;
 	      	case 2:
 	      		intent.setClass(this, HttpGetParametersActivity.class);
 			    startActivity(intent);
