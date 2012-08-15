@@ -95,13 +95,13 @@ public class RegisterActivity extends AbstractAsyncActivity
 			_message = new LinkedMultiValueMap<String, String>();
 			
 			EditText editText = (EditText) findViewById(R.id.edit_text_message_username);
-			_message.add("id", editText.getText().toString());
+			_message.add("username", editText.getText().toString());
 			
 			editText = (EditText) findViewById(R.id.edit_text_message_password);
-			_message.add("subject", editText.getText().toString());
+			_message.add("password", editText.getText().toString());
 			
 			editText = (EditText) findViewById(R.id.edit_text_message_email);
-			_message.add("text", editText.getText().toString());
+			_message.add("email", editText.getText().toString());
 		}
 		
 		@Override
