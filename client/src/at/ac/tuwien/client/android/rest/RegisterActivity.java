@@ -15,7 +15,7 @@
  */
 package at.ac.tuwien.client.android.rest;
 
-import org.springframework.android.showcase.AbstractAsyncActivity;
+import at.ac.tuwien.client.android.AbstractAsyncActivity;
 import at.ac.tuwien.client.android.R;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.LinkedMultiValueMap;

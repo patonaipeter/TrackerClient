@@ -15,7 +15,7 @@
  */
 package at.ac.tuwien.client.android.rest;
 
-import org.springframework.android.showcase.AbstractAsyncActivity;
+import at.ac.tuwien.client.android.AbstractAsyncActivity;
 import at.ac.tuwien.client.android.R;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;

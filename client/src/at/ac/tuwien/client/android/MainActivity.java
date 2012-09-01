@@ -15,13 +15,6 @@
  */
 package at.ac.tuwien.client.android;
 
-import org.springframework.android.showcase.rest.HttpGetActivity;
-import org.springframework.android.showcase.rest.HttpGetParametersActivity;
-import org.springframework.android.showcase.rest.rome.AtomActivity;
-import org.springframework.android.showcase.rest.rome.RssActivity;
-import org.springframework.android.showcase.social.facebook.FacebookActivity;
-import org.springframework.android.showcase.social.twitter.TwitterActivity;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -73,28 +66,8 @@ public class MainActivity extends ListActivity
 //			    startActivity(intent);
 //	      		break;
 	      	case 2:
-	      		intent.setClass(this, HttpGetParametersActivity.class);
-			    startActivity(intent);
-	      		break;
-	      	case 3:
-			    intent.setClass(this, HttpPostActivity.class);
-			    startActivity(intent);
-	      		break;
-	      	case 4:
-	      		intent.setClass(this, RssActivity.class);
-	      		startActivity(intent);
-	      		break;
-	      	case 5:
-	      		intent.setClass(this, AtomActivity.class);
-	      		startActivity(intent);
-	      		break;
-	      	case 6:
-	      		intent.setClass(this, TwitterActivity.class);
-	      		startActivity(intent);
-	      		break;
-	      	case 7:
-	      		intent.setClass(this, FacebookActivity.class);
-	      		startActivity(intent);
+//	      		intent.setClass(this, HttpGetParametersActivity.class);
+//			    startActivity(intent);
 	      		break;
 	      	default:
 	      		break;

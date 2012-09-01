@@ -15,7 +15,6 @@
  */
 package at.ac.tuwien.client.android.rest;
 
-import org.springframework.android.showcase.AbstractAsyncActivity;
 import org.springframework.web.client.RestTemplate;
 
 import android.os.AsyncTask;
@@ -25,6 +24,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import at.ac.tuwien.client.android.AbstractAsyncActivity;
 import at.ac.tuwien.client.android.R;
 
 /**

@@ -1,9 +1,6 @@
 package at.ac.tuwien.client.android;
 
-import org.springframework.security.crypto.encrypt.AndroidEncryptors;
 import org.springframework.social.connect.ConnectionRepository;
-import org.springframework.social.connect.sqlite.SQLiteConnectionRepository;
-import org.springframework.social.connect.sqlite.support.SQLiteConnectionRepositoryHelper;
 import org.springframework.social.connect.support.ConnectionFactoryRegistry;
 import org.springframework.social.facebook.api.FacebookApi;
 import org.springframework.social.facebook.connect.FacebookConnectionFactory;
@@ -27,14 +24,14 @@ public class MainApplication extends Application
 	public void onCreate() 
 	{
 		
-		// create a new ConnectionFactoryLocator and populate it with Facebook and Twitter ConnectionFactories
-		_connectionFactoryRegistry = new ConnectionFactoryRegistry();
-		_connectionFactoryRegistry.addConnectionFactory(new FacebookConnectionFactory(getFacebookAppId(), getFacebookAppSecret()));
-		_connectionFactoryRegistry.addConnectionFactory(new TwitterConnectionFactory(getTwitterConsumerToken(), getTwitterConsumerTokenSecret()));
-
-		// set up the database and encryption
-		_repositoryHelper = new SQLiteConnectionRepositoryHelper(this);
-		_connectionRepository = new SQLiteConnectionRepository(_repositoryHelper, _connectionFactoryRegistry, AndroidEncryptors.text("password", "5c0744940b5c369b"));
+//		// create a new ConnectionFactoryLocator and populate it with Facebook and Twitter ConnectionFactories
+//		_connectionFactoryRegistry = new ConnectionFactoryRegistry();
+//		_connectionFactoryRegistry.addConnectionFactory(new FacebookConnectionFactory(getFacebookAppId(), getFacebookAppSecret()));
+//		_connectionFactoryRegistry.addConnectionFactory(new TwitterConnectionFactory(getTwitterConsumerToken(), getTwitterConsumerTokenSecret()));
+//
+//		// set up the database and encryption
+//		_repositoryHelper = new SQLiteConnectionRepositoryHelper(this);
+//		_connectionRepository = new SQLiteConnectionRepository(_repositoryHelper, _connectionFactoryRegistry, AndroidEncryptors.text("password", "5c0744940b5c369b"));
 	}
 	
 	

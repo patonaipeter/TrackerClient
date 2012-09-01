@@ -4,11 +4,11 @@
       android:versionCode="1"
       android:versionName="1.0">
 
-	<uses-sdk android:minSdkVersion="10"></uses-sdk>
+	<uses-sdk android:minSdkVersion="15"></uses-sdk>
 	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
     
     <application
-    	android:name=".MainApplication" 
+    	android:name="at.ac.tuwien.android.MainApplication" 
     	android:label="@string/app_name">
         
         <activity 
@@ -26,12 +26,12 @@
 		<activity android:name="org.springframework.android.showcase.rest.HttpGetXmlActivity" />
 		<activity android:name="org.springframework.android.showcase.rest.HttpGetParametersActivity" />
 		 -->
-        <activity android:name="at.ac.tuwien.client.android.rest.HttpPostActivity" />
+ <!--   <activity android:name="at.ac.tuwien.client.android.rest.HttpPostActivity" />
         <activity android:name="at.ac.tuwien.client.android.rest.HttpPostStringActivity" />
         <activity android:name="at.ac.tuwien.client.android.rest.HttpPostJsonXmlActivity" />
 		<activity android:name="at.ac.tuwien.client.android.rest.HttpPostMultiValueMapActivity" />
 		<activity android:name="at.ac.tuwien.client.android.rest.HttpPostFormDataActivity" />
-		
+		 -->     
 		<activity android:name="at.ac.tuwien.client.android.rest.RegisterActivity" />
 		
        <!-- 	<activity android:name="org.springframework.android.showcase.rest.rome.RssActivity" />
